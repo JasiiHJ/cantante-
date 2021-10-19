@@ -1,0 +1,3 @@
+familia de fuentes: 'Comfortaa', cursiva;
+familia de fuentes: 'Dosis', sans-serif;
+familia de fuentes: 'Ephesis', cursiva;
