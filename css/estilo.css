@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dosis&family=Ephesis&display=swap');
+body
+{
+  background-image: url(../fondo/dark_wood_@2X.png);
+  margin: 10px auto;
+  font-family: 'Dosis', sans-serif;
+  width: 80%;
+}
+body.color{
+  background-color: rgb(0, 0, 0);
+}
+header {
+    width:100%; /* Establecemos que el header abarque el 100% del documento */
+    overflow:hidden; /* Eliminamos errores de float */
+    background-color:#043b22;
+    margin-bottom:0px;
+    padding: 0px;
+    border-radius: 25px 25px 0px 0px; /*superior, derecho, inferior, izquierdo*/
+    border-style: none;
+  }
+  header>h1
+	{
+		font-family: 'Ephesis', cursiva;
+		letter-spacing: 10px;
+		/*text-transform: uppercase;*/
+		font-weight:bold;
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) 6px 6px 8px; /* los tres números indican distancia horizontal, vertical y difuminado*/
+    font-size: 65px;
+	}
+  header>h2
+  {
+    font-family: 'Comfortaa', cursiva;
+	  letter-spacing: 1px;
+	  font-weight:bold;
+	  text-align: center;
+  }
+  .logo-left
+  {
+  	float:left;
+  	padding: 20px 0px 0px 20px; /*Superior, derecho, inferior, izquierdo*/
+    width: 120px;
+  	height: 120px;
+  }
+  .logo-right
+  {
+  	float: right;
+  	padding: 20px 20px 0px 20px;
+  	width: 120px;
+  	height: 120px;
+  }
+  nav
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+nav ul
+{
+	list-style: none;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: 0.2em;
+  }
+  .boton
+{
+	background-color: #41d585;
+	color:#000000;
+	display: inline-block;
+	font-size: 1em;
+	margin: 5px;
+	padding: 10px 0px;
+	text-align: center;
+	width: 140px;
+	text-decoration: none;
+	box-shadow: 0px 3px 5px #0bab71;
+  border-radius: 30px;
+}
+.boton:hover
+{
+  background-color: rgb(48, 173, 90);
+  box-shadow: 0px 03px 5px rgb(14, 164, 97);
+  padding-top: 7px;
+  color: #1e915a;
+}
+.boton img{
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.boton:hover img
+{
+  filter: invert(20%) sepia(100%);
+}
+section
+{
+  float: left;
+  width: 70%;
+  text-align: justify;
+  margin-top: 10px;
+}
+article
+{
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+aside
+{
+  float: right;
+  width: 30%;
+  text-align: justify;
+  margin-top: 0px;
+}
+blockquote
+{
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+footer
+{
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 0px 0px 25px 25px;
+  border-style: none;
+  color: #ffffff;
+}
+.contenedor
+{
+  padding: 10px 20px 10px 20px;
+  background: rgba(255, 255, 255, 0.20);
+  border-radius: 2em;
+  box-shadow: 0px 5px 3px rgb(249, 237, 250);
+}
+.enlace-footer
+{
+  font-size: 8px;
+  color:rgb(255, 255, 255);
+  padding-right: 7px;
+  text-decoration: none;
+  font-family: 'fantasy', 'monospace';
+}
+.enlace-footer:hover
+{
+  color: rgb(13, 106, 53);
+  text-shadow: 0px 0px 5px rgb(13, 139, 60);
+  text-decoration: underline;
+}
+.izq
+{
+  float: left;
+}
+.der
+{
+  float: right;
+  padding-right: 20px;
+}
+.botonredes
+{
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  background-color: rgba(3, 78, 33, 0.37);
+  border-radius: 100%;
+}
+.botonredes img
+{
+  width: 15px;
+  height: 15px;
+}
+.boton redes:hover
+{
+  background-color: rgb(89, 145, 112);
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px rgb(62, 189, 30);
+}
+.disc{
+  border-radius: 25px;
+  width: 150px;
+  height: 150;
+  padding: 10px;
+  border: 2px solid rgb(8, 62, 30);
+  box-shadow: 0px 5px 8px rgb(3, 69, 10);
+  margin: 20px;
+}
+.disc:hover{
+  -webkit-transform:scale(1.3);
+  -moz-transform: scale(1.3);
+  transform: scale(1.3);
+}
+table
+{
+  width: 80%;
+  margin: auto;
+  font-family: 'Dosis', sans-serif;
+  color: rgb(197, 222, 201);
+}
+th.titulos
+{
+  width: 250px;
+}
+th
+{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+}
+td.center
+{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+}
+td
+{
+  padding: 5px;
+  font-family: 'Dosis', sans-serif;
+}
+tr:nth-child(odd)
+{
+  background-color: rgb(5, 55, 7);
+}
+tr:nth-child(even)
+{
+  background-color: rgb(26, 87, 13);
+}
+.cancion
+{
+  width: 90%;
+  overflow: auto;
+  margin: auto;
+}
+.mitad
+{
+  width: 50%;
+  margin: auto;
+  padding-left: 20px;
+  vertical-align: top;
+}
+.titulos
+{
+  letter-spacing: 5px; /*Espacio entre letras*/
+  font-family: 'Comfortaa', cursiva;
+  font-weight: bold; /*Fuente en negritas*/
+  text-transform: uppercase; /*Transformación del texto*/
+  text-align: center; /*Alineación del texto*/
+  text-shadow: rgb(136, 179, 154) 6px 6px 8px;
+  font-size: 29px;
+}
+h2
+{
+  font-family: 'Comfortaa', cursiva;
+  font-weight: bold; /*Fuente en negritas*/
+  text-align: center; /*Alenación del texto*/
+  font-size: 19px;
+}
+.enlace-aside
+{
+  font-size:1em;
+  color: rgb(109, 157, 122);
+  padding-right: 5px;
+  text-decoration: none;
+  font-family: 'Comfortaa', cursiva;
+  font-weight: bold; /*Fuente en negritas*/
+}
+.enlace-aside:hover
+{
+  color:rgb(156, 255, 192);
+  text-shadow: 0px 0px 5px rgb(94, 254, 139);
+  font-weight: bold;
+}
+.disquitos
+{
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border: 2px solid rgb(8, 62, 30);
+  box-shadow: 0px 5px 8px rgb(3, 69, 10);
+}
+.disquitos:hover
+{
+  filter: saturate(180%);
+  border-radius: 100%;
+}
+.enlace-tabla-lateral
+{
+  font-size: 1em;
+  color: rgb(197, 222, 201);
+  padding-right: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: url ("iconos/manita.svg");
+}
+img.radius
+{
+  width: 35%;
+  height: 35%;
+  float: right;
+  border-radius: 100%;
+  border-style: solid;
+  margin: 0px auto;
+  border: 2px solid rgb(6, 77, 11);
+  padding: 10px;
+  margin: 10px;
+}
+.vidmin
+{
+  width: 200px;
+  height: 89px;
+}
+.noti
+{
+  width: 300px;
+  height: 168px;
+  border-radius: 25px;
+  float: right;
+  padding-left: 20px;
+
+}
+footer>p
+{
+  text-align: center;
+  color: rgb(232, 255, 240);
+  font-size: 15px;
+}
+.porta
+{
+  width: 220px;
+  height: 200px;
+  border-radius: 20px;
+  float: left;
+  padding-right: 10px;
+  bottom: auto;
+}
